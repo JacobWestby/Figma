@@ -171,7 +171,7 @@ nav > ul {
   vertical-align: bottom;
 }
 
-nav > ul > li {
+nav > ul > li > a {
   margin-right: 38px;
   font-family: 'Roboto';
   font-style: normal;
@@ -181,12 +181,17 @@ nav > ul > li {
   text-align: center;
   letter-spacing: 0.02em;
   color: #1b0a42;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* My screen is not 1600 so i made the nav a bit smaller just so it would fit. I also found that you can do a min and max 
 margin it looks like it works but i dont know */
 nav > ul > li:last-child {
-  margin-right: min(550.5px, 752.2px);
+  margin-right: min(530.5px, 752.2px);
 }
 
 .sign-in {
@@ -199,6 +204,7 @@ nav > ul > li:last-child {
   letter-spacing: 0.02em;
   color: #1b0a42;
   margin-right: 40.3px;
+  text-decoration: none;
 }
 
 .sign-up {
@@ -273,6 +279,10 @@ h1 {
   text-align: center;
   margin-left: 114px;
   margin-top: 114px;
+}
+
+button:hover {
+  border: solid 2px blue;
 }
 
 /* MAIN ENDS */
