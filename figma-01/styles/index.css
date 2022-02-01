@@ -1,0 +1,278 @@
+/* CSS RESET */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* RESET ENDS */
+
+/* STYLING */
+
+body {
+  max-width: 1600px;
+}
+
+/* HEADER */
+
+header * {
+  display: inline-block;
+}
+
+.logo {
+  margin-left: 80px;
+  margin-top: 37px;
+  margin-right: 97.5px;
+  height: 40.61px;
+  width: 95.25px;
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  color: #0a1b32;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-dot {
+  font-family: serif;
+  color: #4f56f1;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav > ul {
+  margin-top: 50px;
+  vertical-align: bottom;
+}
+
+nav > ul > li {
+  margin-right: 38px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+}
+
+/* My screen is not 1600 so i made the nav a bit smaller just so it would fit. I also found that you can do a min and max 
+margin it looks like it works but i dont know */
+nav > ul > li:last-child {
+  margin-right: min(550.5px, 752.2px);
+}
+
+.sign-in {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+  margin-right: 40.3px;
+}
+
+.sign-up {
+  width: 120px;
+  height: 59.65px;
+  background: #4f56f1;
+  border-radius: 6px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-right: 67.74px;
+}
+/* HEADER ENDS */
+
+/* MAIN */
+/* changed the width to 500px. When i used 495px from figma it cause a line break */
+
+h1 {
+  font-family: 'Ramaraja';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 72px;
+  line-height: 76px;
+  letter-spacing: 0.02em;
+  color: #1b0a42;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #9a9a9a;
+}
+
+.learn-more {
+  width: 120px;
+  height: 59.65px;
+  background: #4f56f1;
+  border-radius: 6px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-top: 68px;
+}
+
+.wrapper {
+  display: inline-block;
+  width: 500px;
+  margin-left: 200px;
+  position: relative;
+  bottom: 50px;
+}
+
+.main-img {
+  display: inline-block;
+  width: 553px;
+  height: 504px;
+  text-align: center;
+  margin-left: 114px;
+  margin-top: 114px;
+}
+
+/* MAIN ENDS */
